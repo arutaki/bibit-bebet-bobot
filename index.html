@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widt, initial_scale=1.0">
+    <title>Bibit-Bebet-Bobot | Kalkulator Market Jodoh Kamu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Market Jodoh Kamu</h1>
+        <img src="image.png">
+        <p>Kata orang banyak ikan di lautan. Hitung berapa banyak “ikan” yang sebenarnya kalian mau?</p>
+        <p>Anda mencari...</p>
+        <div class="radio-buttons">
+            <input type="radio" id="gender1" name="gender" value="m">
+            <label for="gender1">Laki-laki</label>
+            <input type="radio" id="gender2" name="gender" value="f">
+            <label for="gender2">Perempuan</label>
+        </div>
+        <p>Rentang usia?</p>
+        <div class="range-slider">
+            <input type="range" id="rangeStart" min="18" max="60" value="20">
+            <input type="range" id="rangeEnd" min="18" max="60" value="25">
+        </div>
+        <div>
+            <input type="checkbox" id="marital" name="marital" />
+            <label for="marital">Hanya mencari yang tidak sedang menikah</label>
+        </div>
+        
+        <p>Agama?</p>
+        <div class="radio-buttons">
+            <input type="radio" id="religion1" name="religion" value="islam">
+            <label for="religion1">Islam</label>
+            <input type="radio" id="religion2" name="religion" value="kristen-protestan">
+            <label for="religion2">Kristen Protestan</label>
+            <input type="radio" id="religion3" name="religion" value="kristen-katolik">
+            <label for="religion3">Kristen Katolik</label>
+            <input type="radio" id="religion4" name="religion" value="hindu">
+            <label for="religion4">Hindu</label>
+            <input type="radio" id="religion5" name="religion" value="buddha">
+            <label for="religion5">Buddha</label>
+            <input type="radio" id="religion6" name="religion" value="kong-hu-chu">
+            <label for="religion6">Kong Hu Chu</label>
+            <input type="radio" id="religion7" name="religion" value="aliran-kepercayaan">
+            <label for="religion7">Aliran Kepercayaan</label>
+        </div>
+
+        <p>Tinggi minimal?</p>
+        <div class="range-slider">
+            <input type="range" id="minimum_height" min="125" max="200" value="160">
+        </div>
+
+        <p>Pendapatan bulanan minimal?</p>
+        <div class="range-slider">
+            <input type="range" id="minimum_income" min="0" max="30000000" value="5000000">
+        </div>
+
+        <p>Level pendidikan minimal?</p>
+        <div class="radio-buttons">
+            <input type="radio" id="education1" name="education" value="tidak-tamat-sd">
+            <label for="education1">Tidak tamat SD</label>
+            <input type="radio" id="education2" name="education" value="sd">
+            <label for="education2">SD</label>
+            <input type="radio" id="education3" name="education" value="smp">
+            <label for="education3">SMP</label>
+            <input type="radio" id="education4" name="education" value="sma-smk">
+            <label for="education4">SMA/SMK</label>
+            <input type="radio" id="education5" name="education" value="diploma">
+            <label for="education5">Diploma</label>
+            <input type="radio" id="education6" name="education" value="s1">
+            <label for="education6">S1</label>
+            <input type="radio" id="education7" name="education" value="s2">
+            <label for="education7">S2</label>
+            <input type="radio" id="education8" name="education" value="s3">
+            <label for="education8">S3</label>
+        </div>
+        
+        <button id="button1">Hitung Jumlahnya!</button>
+    </div>
+</body>
